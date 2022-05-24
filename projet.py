@@ -35,20 +35,6 @@ def H(f):
     H[1, 1] = 4 * (x + y**2 - 11) + 8*y**2 + 2
     return H
 
-# def grad(f):
-#     grad = np.zeros((2, 1))
-#     grad[0, 0] = 2 * f[0] - 2 + 40 * f[0]**3 - 40 * f[0] * f[1]
-#     grad[1, 0] = - 20 * f[0]**2 + 20 * f[1] 
-#     return grad
-
-# def H(f):
-#     H = np.zeros((2, 2))
-#     H[0, 0] = 2 + 120 * f[0]**2 - 40 * f[1]
-#     H[0, 1] = (-40) * f[0]
-#     H[1, 0] = (-40) * f[0]
-#     H[1, 1] = 20
-#     return H
-
 def Dj(f):
     Dj = np.zeros((2, 2))
     n = f.size
