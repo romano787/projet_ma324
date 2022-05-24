@@ -6,7 +6,7 @@ AYACH Tiffen
 LOMBARDO Baptiste
 MIAUX Romain
 PREMARAJAH Piratheban
-3PSA1
+3PSA - 3PSC
 """
 
 import numpy as np
